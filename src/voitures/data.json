@@ -1,0 +1,26 @@
+[
+    {
+    "id": "rgfdd",
+    "nom": "Bmw Series 1",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BMW_118d_%28E87%29_Facelift_front_20100711.jpg/1280px-BMW_118d_%28E87%29_Facelift_front_20100711.jpg",
+    "texte": "Superbe bmw serie 1 tout équipé de 2004 fonctionne parfaitement la carroserie est parfaite",
+    "annee":"2004",
+    "carburant" : "diesel"
+    },
+    {
+    "id": "kjnjbh",
+    "nom": "Bmw Series 3 ",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/c/ca/BMW_3er_Limousine07.jpg",
+    "texte": " Bmw serie 3 équipé de siège chauffants et d'un intérieur en parfait état le moteur tourne super bien",
+    "annee": "2008",    
+    "carburant" : "essence"
+    },
+    {
+    "id": "kftdbh",
+    "nom": "Fiat 500 ",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Fiat_500_%282007%29_02.JPG/1280px-Fiat_500_%282007%29_02.JPG",
+    "texte": " Fiat 500 en très bonne état tout a été révisé avec seulement 32 000 km parfaite pour la ville",
+    "annee": "2016",    
+    "carburant" : "essence"
+    }
+]
