@@ -11,12 +11,13 @@ export function Voitures () {
 
 
     return(
-    
+        <div id="voiture-section">
         <div className="voiture-card-all">
         <div >
             {voitures.map((voiture, id) => (
                 <VoitureCard key={id} voiture={voiture} />
             ))}
+        </div>
         </div>
         </div>
     )
