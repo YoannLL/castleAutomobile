@@ -1,4 +1,6 @@
 import { Component } from "react";
+import Aos from "aos";
+
 import "../styles/voiture.css"
 
 import voitures from "../voitures/data.json"
@@ -13,7 +15,7 @@ export function Voitures () {
     return(
         <div id="voiture-section">
         <div className="voiture-card-all">
-        <div >
+        <div>
             {voitures.map((voiture, id) => (
                 <VoitureCard key={id} voiture={voiture} />
             ))}

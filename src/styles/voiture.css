@@ -12,7 +12,9 @@
 }
 
 .voiture-card-all {
-    
+    padding: 50px 0px 100px 0px;
+    margin-top: 10px;
+    background: linear-gradient(0deg, rgba(164,164,164,0.40388655462184875) 80%, rgba(255,255,255,0.9080882352941176) 100%);
 }
 
 .voiture-card {
@@ -20,17 +22,17 @@
     border-radius: 20px;
     margin: 20px 30px 0px;
     gap: 20px;
-    background: rgb(0,0,0);
-    background: linear-gradient(279deg, rgba(0,0,0,1) 0%, rgba(71,71,71,0.13497899159663862) 43%, rgba(164,164,164,0.4318977591036415) 100%);
+    background-color: white;
     color: black;
     display: flex;
-
+    border: 2px solid white;
+    box-shadow: 2px 5px 5px #a4a4a4;
 
 }
 
 .voiture-card:hover {
-    transform: scale(1.01);
-    box-shadow: 2px 5px 5px grey;
+    transform: scale(1.10);
+    box-shadow: 2px 8px 8px #a4a4a4;
 }
 
 .voiture-img img {

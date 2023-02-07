@@ -1,16 +1,34 @@
-import {Component} from "react";
+import {Component, useEffect, useState} from "react";
 
 import {Header} from '../component/Header';
-import {Banner} from '../component/Banner';
+import {Slider} from '../component/Slider';
 import {Voitures} from '../component/Voiture';
+import {Footer} from '../component/Footer';
+
+import {Loader} from "../component/loadSpinner";
+import {SliderPhoto} from "../component/Slider";
 
 export function Accueil () {
 
-    return (
+const [loader, setLoader] = useState(true);
+
+useEffect (() => {
+
+    setTimeout(() => {
+      setLoader(false);
+    }, 2000);
+
+}, [])
+
+    return loader ? (
+        <Loader />
+    ) : 
+    (
         <div>
             <Header />
-            <Banner />
+            <SliderPhoto />
             <Voitures />
+            <Footer />
         </div>
         )
 }

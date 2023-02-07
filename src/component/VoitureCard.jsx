@@ -1,11 +1,16 @@
-import { Component } from "react";
+import { Component, useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import "../styles/voiture.css"
 
 export function VoitureCard ({voiture}) {
-    console.log(voiture);
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return(
-        <div className="voiture-card">
+        <div className="voiture-card" data-aos="fade-right">
             <div className="voiture-img">
                 <img src={voiture.photo} />
             </div>
