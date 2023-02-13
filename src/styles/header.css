@@ -18,26 +18,20 @@
 
 }
 
-
 .logo img {
     height: 320px;
 }
 .nav {
     padding: 0;
-    margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 0px 30px 0px;
-    /*background: rgb(64 64 64 / 31%);*/
     background: rgb(164,164,164);
     background: linear-gradient(180deg, rgba(164,164,164,0.6980042016806722) 61%, rgba(255,255,255,1) 100%);
-    overflow: hidden;
     box-shadow: 1px 1px 10px 1px black;
-    margin: 10px 10px;
+    margin: 25px 30px;
     border-radius: 10px;
-    margin-top: 25px;
 }
 .nav li {
     text-align: center;
@@ -49,8 +43,14 @@
     color: black;
     font-size: 30px;
     font-weight: 500;
-    border: 2px solid white;
-
+   
+}
+.nav li:hover {
+    transform: scale(1.05);
+}
+.nav-voiture {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
 
 .logo:hover {
@@ -114,5 +114,11 @@
     }
     .logo img {
         height: 220px;
+    }
+    .logo {
+        margin: 0 5px;
+    }
+    .nav {
+        margin: 20px 0px;
     }
 }

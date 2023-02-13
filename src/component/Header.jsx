@@ -17,7 +17,7 @@ export function Header () {
             <div>
                 <ul className="nav">
                     <li>Le garage</li>
-                    <li>Nos voitures</li>
+                    <li className="nav-voiture">Nos voitures</li>
                     <li>contact</li>
                 </ul>
             </div>
