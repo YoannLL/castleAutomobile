@@ -12,13 +12,15 @@
 }
 
 .voiture-card-all {
-    padding: 50px 0px 100px 0px;
-    margin-top: 10px;
-    background: linear-gradient(0deg, rgba(164,164,164,0.40388655462184875) 80%, rgba(255,255,255,0.9080882352941176) 100%);
+    padding: 40px 0px 100px 0px;
+    margin: 10px 50px 120px 50px;
+    /*background: linear-gradient(0deg, rgba(164,164,164,0.40388655462184875) 80%, rgba(255,255,255,0.9080882352941176) 100%);*/
+    background: rgb(164,164,164);
+    background: linear-gradient(180deg, rgba(164,164,164,0.6980042016806722) 61%, rgba(255,255,255,1) 100%);
+    border-radius: 20px;
 }
 
 .voiture-card {
-    height: 250px;
     border-radius: 20px;
     margin: 20px 30px 0px;
     gap: 20px;
@@ -45,4 +47,48 @@
     font-weight: 600;
     font-size: 35px;
     border-bottom: 1px solid black;
+    
+}
+.titre-voiture {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.titre-voiture h2 {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: rgb(164,164,164);
+    background: linear-gradient(180deg, rgba(164,164,164,0.6980042016806722) 61%, rgba(255,255,255,1) 100%);
+    box-shadow: 2px 5px 5px #a4a4a4;
+}
+
+@media (max-width:768px) {
+    .voiture-card {
+        flex-direction: column;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .voiture-img img {
+        width: 100%;
+        border-radius: 18px 18px 0px 0px;
+    }
+    .voiture-card-all {
+        background-color: white;
+        background: white;
+        border-radius: 20px;
+        margin: 5px 10px 5px 10px;
+    }
+    .voiture-texte {
+        padding-bottom: 20px;
+    }
+    .titre-voiture {
+        font-size: 20px;
+    }
+    #voiture-section {
+        background-color: white;
+        background: white;
+    }
+
 }

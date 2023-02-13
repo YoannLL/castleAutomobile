@@ -105,3 +105,14 @@
 		left: 125%;
 	}
 }
+
+@media (max-width:768px) {
+    .nav li {
+        padding: 5px 10px 5px 10px;
+        font-size: 20px;
+    
+    }
+    .logo img {
+        height: 220px;
+    }
+}

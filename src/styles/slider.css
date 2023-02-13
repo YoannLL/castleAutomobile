@@ -36,4 +36,10 @@ ul .slider.animated {
     border-radius: 20px;
 }
 
+@media (max-width:768px) {
+    .slider {
+        height: 225px;
+    }
+}
+
 
