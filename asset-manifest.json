@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/castleAutomobile/static/css/main.8a261f53.css",
-    "main.js": "/castleAutomobile/static/js/main.3dcd3299.js",
+    "main.css": "/castleAutomobile/static/css/main.d1084692.css",
+    "main.js": "/castleAutomobile/static/js/main.192949f2.js",
     "static/js/787.1ec6bdd3.chunk.js": "/castleAutomobile/static/js/787.1ec6bdd3.chunk.js",
     "static/media/photo2.webp": "/castleAutomobile/static/media/photo2.743df61b106bc320395f.webp",
     "static/media/photo1.jpg": "/castleAutomobile/static/media/photo1.3b99b89d7b6f77aad4d1.jpg",
     "static/media/photo3.jpg": "/castleAutomobile/static/media/photo3.7fc2ebf60af0649856d3.jpg",
     "static/media/logoCastle.png": "/castleAutomobile/static/media/logoCastle.a101473e9e556ddf3cf7.png",
     "index.html": "/castleAutomobile/index.html",
-    "main.8a261f53.css.map": "/castleAutomobile/static/css/main.8a261f53.css.map",
-    "main.3dcd3299.js.map": "/castleAutomobile/static/js/main.3dcd3299.js.map",
+    "main.d1084692.css.map": "/castleAutomobile/static/css/main.d1084692.css.map",
+    "main.192949f2.js.map": "/castleAutomobile/static/js/main.192949f2.js.map",
     "787.1ec6bdd3.chunk.js.map": "/castleAutomobile/static/js/787.1ec6bdd3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a261f53.css",
-    "static/js/main.3dcd3299.js"
+    "static/css/main.d1084692.css",
+    "static/js/main.192949f2.js"
   ]
 }
