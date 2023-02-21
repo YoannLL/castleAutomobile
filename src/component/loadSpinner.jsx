@@ -9,7 +9,10 @@ export function Loader () {
 
     return (
         <div className="page-loader">
-        <div class="lds-spinner placement"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <div className="placement">
+                <img src={loaderImg} />
+                <div className="placement-spinner"><div class="loader"></div></div>
+            </div>
         </div>
     )
 }
